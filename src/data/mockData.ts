@@ -1,0 +1,143 @@
+import { VIPTier, NotificationItem } from '../types';
+
+import btcNodeImg from '../assets/images/btc_crypto_node_1790496625187.jpg';
+import ethNodeImg from '../assets/images/eth_crypto_node_1790496635647.jpg';
+import xauNodeImg from '../assets/images/xau_gold_node_1790496652151.jpg';
+import bingxLogoImg from '../assets/images/bingx_brand_logo_1790496601051.jpg';
+
+export const VIP_TIERS: VIPTier[] = [
+  {
+    level: 1,
+    name: 'VIP1',
+    price: 6.00,
+    dailyTasks: 2,
+    perTaskProfit: 0.60,
+    dailyProfit: 1.20,
+    totalProfit: 36.00,
+    daysValid: 30,
+    assetSymbol: 'BTC',
+    assetName: 'Bitcoin (BTC/USDT) Node',
+    assetImage: btcNodeImg,
+  },
+  {
+    level: 2,
+    name: 'VIP2',
+    price: 40.00,
+    dailyTasks: 2,
+    perTaskProfit: 10.00,
+    dailyProfit: 20.00,
+    totalProfit: 600.00,
+    daysValid: 30,
+    assetSymbol: 'ETH',
+    assetName: 'Ethereum (ETH/USDT) Node',
+    assetImage: ethNodeImg,
+  },
+  {
+    level: 3,
+    name: 'VIP3',
+    price: 98.00,
+    dailyTasks: 2,
+    perTaskProfit: 24.50,
+    dailyProfit: 49.00,
+    totalProfit: 1470.00,
+    daysValid: 30,
+    assetSymbol: 'XAU',
+    assetName: 'Gold Index (XAU/USDT) Node',
+    assetImage: xauNodeImg,
+  },
+  {
+    level: 4,
+    name: 'VIP4',
+    price: 280.00,
+    dailyTasks: 2,
+    perTaskProfit: 75.00,
+    dailyProfit: 150.00,
+    totalProfit: 4500.00,
+    daysValid: 30,
+    assetSymbol: 'SOL',
+    assetName: 'Solana (SOL/USDT) High-Speed Node',
+    assetImage: btcNodeImg,
+  },
+  {
+    level: 5,
+    name: 'VIP5',
+    price: 680.00,
+    dailyTasks: 2,
+    perTaskProfit: 190.00,
+    dailyProfit: 380.00,
+    totalProfit: 11400.00,
+    daysValid: 30,
+    assetSymbol: 'BNB',
+    assetName: 'Binance (BNB/USDT) Smart Node',
+    assetImage: ethNodeImg,
+  },
+  {
+    level: 6,
+    name: 'VIP6',
+    price: 1680.00,
+    dailyTasks: 2,
+    perTaskProfit: 480.00,
+    dailyProfit: 960.00,
+    totalProfit: 28800.00,
+    daysValid: 30,
+    assetSymbol: 'XRP',
+    assetName: 'Ripple (XRP/USDT) Liquidity Node',
+    assetImage: xauNodeImg,
+  },
+  {
+    level: 7,
+    name: 'VIP7',
+    price: 3680.00,
+    dailyTasks: 2,
+    perTaskProfit: 1080.00,
+    dailyProfit: 2160.00,
+    totalProfit: 64800.00,
+    daysValid: 30,
+    assetSymbol: 'AVAX',
+    assetName: 'Avalanche (AVAX/USDT) Consensus Node',
+    assetImage: ethNodeImg,
+  },
+  {
+    level: 8,
+    name: 'VIP8',
+    price: 8880.00,
+    dailyTasks: 2,
+    perTaskProfit: 2700.00,
+    dailyProfit: 5400.00,
+    totalProfit: 162000.00,
+    daysValid: 30,
+    assetSymbol: 'BINGX PRIME',
+    assetName: 'BingX Prime Institutional Quantum Node',
+    assetImage: bingxLogoImg,
+  }
+];
+
+export const INITIAL_NOTIFICATIONS: NotificationItem[] = [
+  {
+    id: 'notif-1',
+    title: 'BingX Global Asset Collaboration Platform Online',
+    titleAr: 'إطلاق منصة بينغ إكس (BingX) العالمية للأصول الرقمية',
+    content: 'Welcome to BingX Global Platform. Unlock your VIP quantitative tier (BTC, ETH, XAU) to receive guaranteed daily arbitrage returns.',
+    contentAr: 'أهلاً بك في منصة BingX العالمية. قم بفتح باقة VIP الكمية (BTC, ETH, XAU) للحصول على عوائد الأرباح اليومية المؤكدة.',
+    time: '2026-09-27 10:00',
+    read: false,
+  },
+  {
+    id: 'notif-2',
+    title: 'BTC Node VIP1 Available for 6.00 USDT',
+    titleAr: 'باقة VIP1 لرمز BTC متاحة بسعر 6.00 USDT',
+    content: 'Start earning daily quantitative profits with VIP1 BTC node for only 6 USDT.',
+    contentAr: 'ابدأ في جني الأرباح اليومية مع باقة VIP1 لرمز BTC بسعر 6 USDT فقط.',
+    time: '2026-09-27 09:30',
+    read: false,
+  }
+];
+
+export const MOCK_LIVE_WITHDRAWALS = [
+  { user: 'bx_***892', amount: '12.00 USDT', time: '1 min ago' },
+  { user: 'bx_***314', amount: '49.00 USDT', time: '3 mins ago' },
+  { user: 'bx_***901', amount: '350.00 USDT', time: '5 mins ago' },
+  { user: 'bx_***627', amount: '6.00 USDT', time: '8 mins ago' },
+  { user: 'bx_***115', amount: '1,470.00 USDT', time: '12 mins ago' },
+  { user: 'bx_***489', amount: '98.00 USDT', time: '14 mins ago' },
+];

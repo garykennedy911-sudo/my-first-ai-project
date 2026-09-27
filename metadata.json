@@ -1,0 +1,6 @@
+{
+  "name": "Porsche Global Asset Platform",
+  "description": "Porsche VIP Asset and Task Collaboration Platform with multi-level commission, daily tasks, recharge and withdrawal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
